@@ -14,6 +14,14 @@ module.exports = {
       'lg': '1440px',
       // => @media (min-width: 1440px) { ... }
     },
+    colors: {
+      'brown':'#e9c46a',
+      'gray':'#8d99ae',
+      'white':'#fff',
+      'theme':'#f9dcc4',
+      'purple':'#5C64Cf',
+      'black':'#000',
+    },
   },
   plugins: [],
 }
