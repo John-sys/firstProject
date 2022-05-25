@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        lora: "'Lora', serif"
+      },
+    },
     screens: {
       'sm': '576px',
       // => @media (min-width: 576px) { ... }
@@ -27,6 +31,7 @@ module.exports = {
       'grand':'#F77737',
       'facebook':'#405DE6',
       'lightgray':'#677099',
+      'gold':'#ffd60a',
     },
   },
   plugins: [],

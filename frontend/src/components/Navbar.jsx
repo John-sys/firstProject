@@ -8,7 +8,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="bg-brown w-full top-0 left-0 shadow-lg">
+    <div className="bg-transparent w-full top-0 left-0 shadow-lg">
       <div className="md:flex py-4 md:px-10 px-5 items-center justify-between mx-auto">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800 justify-between md:ml-[70px] ">
           <a href="/">

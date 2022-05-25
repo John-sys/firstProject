@@ -1,9 +1,13 @@
 import React from "react";
 import { BiCheck } from "react-icons/bi";
+import { AiFillStar } from "react-icons/ai";
 
 const Portfolio = () => {
   return (
-    <div className="grid md:grid-cols-1 w-full justify-center bg-[#F2F6F9] md:h-screen" id="pricing">
+    <div
+      className="grid md:grid-cols-1 w-full justify-center bg-[#F2F6F9] md:h-screen"
+      id="pricing"
+    >
       <div className="flex md:flex-row w-full md:justify-center flex-col md:p-5 md:h-screen">
         {/* 1st pricing Basic*/}
         <div className=" rounded-xl w-[350px] p-8 bg-white md:my-9 hover:translate-y-1 hover:scale-110 duration-300 transition ease-in-out hover:bg-theme ">
@@ -68,8 +72,10 @@ const Portfolio = () => {
         </div>
 
         {/* 3rd Pricing Professional*/}
-        <div className=" rounded-xl w-[350px] p-8 md:my-9  md:ml-4 bg-white hover:translate-y-1 hover:scale-110 duration-300 transition ease-in-out hover:bg-theme">
-        <p className="text-xl font-medium md:mt-2">Professional</p>
+        <div className=" rounded-xl w-[350px] px-8 py-3 md:my-9  md:ml-4 bg-white hover:translate-y-1 hover:scale-110 duration-300 transition ease-in-out hover:bg-theme">
+          <AiFillStar size={25} className="mx-[45%] text-gold " />
+
+          <p className="text-xl font-medium md:mt-2">Professional</p>
           <p className="text-lightgray md:my-4 ">
             <span className="text-4xl font-black text-black">$1500</span>/month
           </p>

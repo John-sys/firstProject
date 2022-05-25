@@ -10,8 +10,8 @@ const Homepage = () => {
   return (
     <div className="h-screen w-full ">
       {/* Intro text */}
-      <div className="bg-brown">
-        <div className="text-center text-3xl pt-7 ">
+      <div className="bg-[#F2F6F9]">
+        <div className="text-center text-3xl pt-7 font-lora  ">
           <h1>John Gbaya-kokoya</h1>
           <p>Frontend Web Developer</p>
           <p>Based in Ghana</p>
@@ -19,7 +19,7 @@ const Homepage = () => {
 
         <div className="grid md:grid-cols-2 m-auto w-full mt-8">
           <div className="flex flex-col justify-center md:items-start md:h-screen md:px-[25%] py-8 ">
-            <p className="text-5xl pl-5">
+            <p className="text-6xl pl-3 md:w-[400px]">
               We have the
               <br />
               Best design <br />
@@ -127,9 +127,9 @@ const Homepage = () => {
             <div className="mx-7 p-4 border-x-0 border-t-2">
               <p>03/</p>
               <p className="text-4xl mt-4">
-                Systems Analysis &
+                Website Development &
                 <br />
-                architecture
+                Hosting
               </p>
 
               <div className="flex flex-row justify-between ">

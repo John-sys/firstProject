@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <div className="bg-brown">
+        <div className="bg-[#F2F6F9]">
           <Navbar />
 
           <Routes>
