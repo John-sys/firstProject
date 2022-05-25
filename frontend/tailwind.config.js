@@ -26,6 +26,7 @@ module.exports = {
       'orange':'#F56040',
       'grand':'#F77737',
       'facebook':'#405DE6',
+      'lightgray':'#677099',
     },
   },
   plugins: [],

@@ -76,7 +76,7 @@ const Navbar = () => {
               href="/"
               className="text-gray-800 hover:text-gray duration-200 text-selected-text"
             >
-              Home{" "}
+              Home
             </a>
           </li>
           <li className="md:ml-8 text-lg">
@@ -97,7 +97,7 @@ const Navbar = () => {
           </li>
           <li className="md:ml-8 text-lg flex flex-row">
             <a
-              href="/projects"
+              href="#pricing"
               className="text-gray-800 hover:text-gray duration-200"
             >
               Pricing

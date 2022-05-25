@@ -44,10 +44,16 @@ const Homepage = () => {
             </div>
 
             {/* social media icons */}
-            <div className="flex flex-row mt-5 mx-4 space-x-9 justify-center ">
-              <GrTwitter size={22} className="hover:text-blue" />
-              <GrFacebookOption size={22} className="hover:text-facebook" />
-              <GrInstagram size={22} className="hover:text-red" />
+            <div className="flex flex-row mt-5 mx-6 pl-8 space-x-9 md:pl-3  ">
+              <div className="border-2 rounded-md border-blue p-2 hover:text-blue hover:border-black ">
+                <GrTwitter size={22} />
+              </div>
+              <div className="border-2 rounded-md border-facebook p-2 hover:text-facebook hover:border-black ">
+                <GrFacebookOption size={22} />
+              </div>
+              <div className="border-2 rounded-md border-red p-2 hover:text-red hover:border-black">
+                <GrInstagram size={22} />
+              </div>
             </div>
           </div>
 
@@ -69,7 +75,7 @@ const Homepage = () => {
           className="flex flex-col justify-center md:items-start w-full md:px-[25%] md:py-8 py-12"
           id="services"
         >
-          <p className="text-5xl md:p-5 mr-[50px] px-8 font-medium">
+          <p className="md:text-6xl md:w-[350px] text-4xl md:p-5 mr-[50px] px-8 font-medium">
             Services I <br />
             Offer
           </p>
@@ -111,7 +117,7 @@ const Homepage = () => {
 
               <div className="flex flex-row justify-between ">
                 <p className="mt-12">Explore</p>
-                <div className="bg-purple w-[45px] h-[45px] rounded-[50%] flex justify-center items-center mt-9">
+                <div className="bg-purple w-[45px] h-[45px] rounded-[50%] flex justify-center items-center mt-9 ">
                   <BsArrowUpRight size={20} className="text-white" />
                 </div>
               </div>
@@ -123,7 +129,7 @@ const Homepage = () => {
               <p className="text-4xl mt-4">
                 Systems Analysis &
                 <br />
-                administration
+                architecture
               </p>
 
               <div className="flex flex-row justify-between ">
@@ -138,7 +144,7 @@ const Homepage = () => {
       </div>
 
       {/* Portfolio section */}
-      <Portfolio/>
+      <Portfolio />
     </div>
   );
 };
