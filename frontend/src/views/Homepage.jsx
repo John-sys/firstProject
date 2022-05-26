@@ -3,8 +3,11 @@ import React from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
 import { GrTwitter, GrFacebookOption, GrInstagram } from "react-icons/gr";
+import { GoMarkGithub } from "react-icons/go";
 import NewImage from "../assets/newImage.jpg";
 import Portfolio from "../components/Portfolio";
+import Experience from "../components/Experience";
+import Contact from "../components/Contact";
 
 const Homepage = () => {
   return (
@@ -12,6 +15,7 @@ const Homepage = () => {
       {/* Intro text */}
       <div className="bg-[#F2F6F9]">
         <div className="text-center text-3xl pt-7 font-lora  ">
+          <p>Hello, I'm</p>
           <h1>John Gbaya-kokoya</h1>
           <p>Frontend Web Developer</p>
           <p>Based in Ghana</p>
@@ -32,27 +36,30 @@ const Homepage = () => {
 
             {/* Custom Buttons */}
             <div className="pt-4 mx-6 md:mx-2 flex flex-row ">
-              <button className="py-3 px-4 bg-purple rounded-xl flex flex-row hover:bg-gray ">
+              <button className="py-3 px-4 bg-purple rounded-xl flex flex-row hover:bg-gray  ">
                 <p className="text-white pr-2 ">Lets Talk</p>
                 <FaTelegramPlane size={20} className="text-white" />
               </button>
 
-              <button className="py-3 px-4 md:ml-4 ml-4 bg-transparent rounded-xl flex flex-row hover:text-gray border-2 delay-75 ">
+              {/* <button className="py-3 px-4 md:ml-4 ml-4 bg-transparent rounded-xl flex flex-row hover:text-gray border-2 delay-75 ">
                 <p className="pr-2 ">Portfolio</p>
                 <BsArrowUpRight size={20} />
-              </button>
+              </button> */}
             </div>
 
             {/* social media icons */}
             <div className="flex flex-row mt-5 mx-6 pl-8 space-x-9 md:pl-3  ">
-              <div className="border-2 rounded-md border-blue p-2 hover:text-blue hover:border-black ">
+              <div className="border-2 rounded-md border-blue p-2 hover:text-blue hover:border-black hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
                 <GrTwitter size={22} />
               </div>
-              <div className="border-2 rounded-md border-facebook p-2 hover:text-facebook hover:border-black ">
+              <div className="border-2 rounded-md border-facebook p-2 hover:text-facebook hover:border-black hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
                 <GrFacebookOption size={22} />
               </div>
-              <div className="border-2 rounded-md border-red p-2 hover:text-red hover:border-black">
+              <div className="border-2 rounded-md border-red p-2 hover:text-red hover:border-black hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
                 <GrInstagram size={22} />
+              </div>
+              <div className="border-2 rounded-md border-[#6e5494] p-2 hover:text-[#6e5494] hover:border-black hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
+                <GoMarkGithub size={22}/>
               </div>
             </div>
           </div>
@@ -62,11 +69,15 @@ const Homepage = () => {
             <img
               src={NewImage}
               alt="/"
-              className=" md:w-[60%] md:h-[90%] rounded-lg "
+              className=" md:w-[60%] md:h-[90%] rounded-lg transition md:-skew-x-3"
             />
           </div>
         </div>
       </div>
+
+      {/* Experiences Section */}
+      <Experience/>
+
 
       {/* Services Section */}
       <div className="grid md:grid-cols-2 w-full bg-theme mr-5">
@@ -93,7 +104,7 @@ const Homepage = () => {
             <div className="mx-7 p-4 ">
               <p>01/</p>
               <p className="text-4xl mt-4">
-                Web UI/UX
+                UI/UX
                 <br />
                 Design
               </p>
@@ -143,8 +154,12 @@ const Homepage = () => {
         </div>
       </div>
 
+
       {/* Portfolio section */}
       <Portfolio />
+
+      {/* Contact Me Section */}
+      <Contact/>
     </div>
   );
 };

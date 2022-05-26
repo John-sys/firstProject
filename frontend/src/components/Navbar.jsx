@@ -40,7 +40,7 @@ const Navbar = () => {
                 href="/about"
                 className="text-gray-800 hover:text-gray duration-200"
               >
-                Portfolio
+                Projects
               </a>
             </li>
             <li className="md:ml-8 text-lg">
@@ -71,7 +71,7 @@ const Navbar = () => {
 
         {/* Desktop menu view */}
         <ul className="hidden md:flex md:items-center items-center ">
-          <li className="md:ml-8 text-lg">
+          <li className="md:ml-8 text-lg font-lora hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out ">
             <a
               href="/"
               className="text-gray-800 hover:text-gray duration-200 text-selected-text"
@@ -79,15 +79,15 @@ const Navbar = () => {
               Home
             </a>
           </li>
-          <li className="md:ml-8 text-lg">
+          <li className="md:ml-8 text-lg font-lora hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
             <a
-              href="/about"
+              href="/projects"
               className="text-gray-800 hover:text-gray duration-200"
             >
-              Portfolio
+              Projects
             </a>
           </li>
-          <li className="md:ml-8 text-lg">
+          <li className="md:ml-8 text-lg font-lora hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
             <a
               href="#services"
               className="text-gray-800 hover:text-gray duration-200"
@@ -95,7 +95,7 @@ const Navbar = () => {
               Services
             </a>
           </li>
-          <li className="md:ml-8 text-lg flex flex-row">
+          <li className="md:ml-8 text-lg flex flex-row font-lora hover:-translate-y-1 hover:scale-110 duration-300 transition ease-in-out">
             <a
               href="#pricing"
               className="text-gray-800 hover:text-gray duration-200"
@@ -104,9 +104,9 @@ const Navbar = () => {
             </a>
             <div className="bg-purple w-[9px] h-[9px] rounded-[50%] animate-pulse "></div>
           </li>
-          <li className="md:ml-8 text-lg">
+          <li className="md:ml-8 text-lg ">
             <a href="#hire">
-              <button className="px-4 py-2 bg-theme rounded-md hover:bg-gray flex flex-row">
+              <button className="px-4 py-2 bg-theme rounded-md hover:bg-gray flex flex-row ">
                 Hire Me
                 <BiEnvelope size={22} className="ml-2 mt-[3px]" />
               </button>
