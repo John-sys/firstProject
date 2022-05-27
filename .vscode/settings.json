@@ -1,7 +1,12 @@
 {
     "cSpell.words": [
+        "browserslist",
         "Gbaya",
         "jayjay",
-        "kokoya"
+        "kokoya",
+        "tailwindcss"
+    ],
+    "cSpell.ignoreWords": [
+        "predeploy"
     ]
 }
