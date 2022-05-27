@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://John-sys.github.io/firstProject",
+  "homepage": "https://john-sys.github.io/firstProject",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.8.0",
